@@ -1,0 +1,1027 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+body {
+    background-color: #f0f0f0;
+    background-color: #000;
+}
+.content-aria {
+    width: 100%;
+}
+/* ================================ */
+        /* sign up aria */
+/* ================================ */
+.content-aria .background {
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    z-index: 99;
+}
+.content-aria .sign-up-aria {
+    display: flex;
+    margin-right: 7%;
+    margin-left: 7%;
+    /* margin-top: 17px; */
+    background-color: #fff;
+}
+.content-aria .sign-up-aria .job-aria {
+   width: 50%; 
+   display: flex;
+}
+.sign-up-aria a {
+   text-decoration: none; 
+   padding: 6px 10px;
+   color: #12151b;
+}
+.sign-up-aria a:hover {
+    color: #589af0;
+}
+.content-aria .sign-up-aria .sign-up {
+    width: 50%;
+    text-align: right;
+   
+    margin-top: 6px; 
+    
+}
+.sign-up-aria .sign-up a {
+    padding: 6px 10;
+}
+.content-aria .sign-up-aria .image img {
+    width: 130px;
+
+}
+.content-aria .sign-up .project {
+    padding: 0 10px;
+    color: #fff;
+    background: #e60278;
+    padding: 9px 8px;
+    border-radius: 3px;
+}
+.content-aria .sign-up .project:hover {
+    background-color: #860146;
+}
+/* ================================ */
+        /* menu bar aria */
+/* ================================ */
+.content-aria .menu-ber {
+    background: #12151b;
+}
+.content-aria .menu-ber .heading {
+    margin-left: 7%;
+}
+.heading > ul {
+    display: flex;
+    /* background: #800000; */
+}
+.heading > ul > li {
+    position: relative;
+    z-index: 90;
+}
+.heading > ul li ul {
+    position: absolute;
+    background: #222f3e;
+    left: 0;
+    top: 100%;
+}
+.heading > ul li ul li a{
+    color: #fff;
+}
+.heading > ul li {
+    list-style-type: none;
+    padding: 20px 20px;
+}
+.heading > ul li  a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.heading ul ul li a {
+    color: #000;
+    width: 100%;
+    display: block;
+}
+.heading ul ul li {
+    width: 100%;
+    width: 170px;
+}
+.heading ul li .get-ideas {
+    width: 300px;
+    border-radius: 0 5px 5px 5px;
+    background-color:#222f3e;
+    
+}
+.heading ul li .get-ideas li a{
+    color: #fff;
+}
+.heading ul li .get-ideas li {
+    display: block;
+    width: 100%;
+
+}
+.heading ul li .get-ideas li {
+    display: block; 
+}
+.heading > ul ul {
+    display: none;
+
+}
+.heading > ul ul li {
+    line-height: 0;
+}
+/* ================================ */
+    /* menu bar hover aria */
+/* ================================ */
+.heading > ul > li:hover {
+    background: #34495e;
+}
+
+.heading ul ul li a:hover{
+    display: block;
+    color: #589af0;
+}
+.heading > ul li:hover ul {
+    display: block;
+}
+
+/* ================================ */
+          /* video aria */
+/* ================================ */
+.content-aria .video-aria {
+    width: 100%;
+    height: 10%;
+    color: #fff;
+    position: relative;
+}
+.content-aria .video-aria video {
+    width: 100%;
+    height: 100%;
+}
+.content-aria .video-aria h1 {
+    position: relative;
+    left: -25px;
+    font-size: 50px;
+    padding-bottom: 5%;
+}
+.content-aria .video-aria li {
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    
+}
+.content-aria .video-aria ul {
+    margin-bottom: 20px;
+}
+.content-aria .video-aria .video-in-aria {
+    position: absolute;
+    /* overflow: hidden; */
+    max-width: 530px;
+    min-width: 430px;
+    top: 13%;
+    left: 5%;
+}
+.content-aria .video-aria .video-in-aria a {
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-aria .video-aria .video-in-aria .anker-1 {
+    background: #e60278;
+    border-radius: 3px;
+}
+.content-aria .video-aria .video-in-aria .anker {
+    background: rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+.content-aria .video-aria .video-in-aria .anker:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.content-aria .video-aria .video-in-aria .anker-1:hover {
+    background: #860146;
+}
+/* ================================ */
+          /* image aria width */
+/* ================================ */
+.content-aria .image-aria-width {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+/* .content-aria .image-aria-width .image-aria {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}  */
+
+.content-aria .image-aria .empty {
+    width: 2px;
+    height: 95px;
+    color: #26a6ed;
+}
+.content-aria .image-aria  {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.content-aria .image-aria h1 {
+    padding-left: 35px;
+    font-size: 60px;
+}
+.content-aria .image-aria .h1 {
+    margin-top: 145px;
+    color: #e60278;
+}
+.content-aria .image-aria img {
+    width: 100%;
+    height: 100%;
+}
+.content-aria .image-aria .card {
+	width: 294px;
+	height: 290px;
+	position: absolute;
+	top: 23%;
+	left: 56%;
+}
+.content-aria .image-aria .width-aria {
+    position: absolute;
+    top: 0;
+}
+.content-aria .image-aria .width-aria .img-w50 {
+    /* width: 45%; */
+    overflow: hidden;
+    margin-bottom: 50px;
+    /* padding: 0 0 0 35px; */
+    float: left;
+}
+.content-aria .image-aria .width-aria .img-w50 p {
+    margin: 15px 0 60px 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+.content-aria .image-aria .width-aria .img-w50 h2 {
+    font-size: 33px;
+    text-align: left;
+}
+.content-aria .image-aria-width h2 {
+    font-size: 33px;
+    
+}
+.content-aria .image-aria-width .under-side {
+    padding-left: 35px;
+}
+.content-aria .image-aria-width .image-aria a {
+    font-size: 18px;
+    color:#e60278;
+    text-decoration: none;
+}
+.content-aria .image-aria-width .image-aria a:hover {
+    text-decoration: underline;
+}
+
+.content-aria .image-aria .width-aria .img-w50 .left-side {
+    width: 290px;
+    padding: 0 0 0 35px;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+}
+.content-aria .image-aria .width-aria .img-w50 .right-side {
+    width: 290px;
+    padding: 0 0 0 35px;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
+}
+/* ============================================= */
+            /* image animation aria */
+/* ============================================ */
+ .content-aria .image-animation-aria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    /* overflow: hidden; */
+}
+.content-aria .image-animation-aria .image-animation {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.content-aria .image-animation .left-side {
+    width: 45%;
+}
+.content-aria .image-animation .left-side img {
+    width: 100%;
+}
+.content-aria .image-animation .right-side {
+    width: 45%;
+}
+.content-aria .image-animation .right-side-1 {
+    width: 50%;
+    float: left;
+}
+.content-aria .image-animation .right-side-1 img {
+    width: 100%;
+}
+.content-aria .image-animation .left-side-1 {
+    width: 50%;
+    float: left;
+}
+.content-aria .image-animation .left-side-1 img {
+    width: 100%;
+}
+
+/* ===================================================== */
+                    /* image animation aria */
+                         /* left side */
+/* ===================================================== */
+.content-aria .image-animation .left-side .one p {
+    color:#000;
+}
+.content-aria .image-animation .left-side .one input {
+    padding: 10px 20px;
+    background: #e60278;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.content-aria .image-animation .left-side .one input:hover {
+    background: #860146;
+}
+.content-aria .image-animation .left-side .one .pragraph-aria {
+    display: none;
+}
+/* ===================================================== */
+                         /* hover */
+/* ===================================================== */
+
+.content-aria .image-animation .left-side .one:hover .pragraph-aria {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 15px;
+}
+.content-aria .image-animation .left-side .one:hover {
+    background-color:  #fff;
+    transition: 0.3s;
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/* ===================================================== */
+                    /* image animation aria */
+                         /* right side */
+/* ===================================================== */
+
+.content-aria .image-animation .one,
+.content-aria .image-animation .two,
+.content-aria .image-animation .three,
+.content-aria .image-animation .four,
+.content-aria .image-animation .five {
+    /* background: #fff; */
+    border-radius: 5px;
+}
+.content-aria .image-animation .right-side .pragraph-aria {
+    display: none;
+}
+.content-aria .image-animation .right-side p {
+    font-size: 15px;
+    color: #000;
+}
+.content-aria .image-animation .two input,
+.content-aria .image-animation .three input,
+.content-aria .image-animation .four input,
+.content-aria .image-animation .five input {
+    background-color: #e60278;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 8px 14px;
+    border-radius: 3px;
+}
+/* ===================================================== */
+                         /* hover */
+/* ===================================================== */
+
+.content-aria .image-animation .right-side .two:hover .pragraph-aria,
+.content-aria .image-animation .right-side .three:hover .pragraph-aria,
+.content-aria .image-animation .right-side .four:hover .pragraph-aria {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.content-aria .image-animation .right-side .five:hover .pragraph-aria {
+    display: block;
+    padding: 8px;
+}
+.content-aria .image-animation .right-side .two:hover,
+.content-aria .image-animation .right-side .three:hover,
+.content-aria .image-animation .right-side .four:hover,
+.content-aria .image-animation .right-side .five:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* ===================================================== */
+                 /*golobal-network aria */
+/* ===================================================== */
+
+.content-aria .golobal-network {
+    background: url(images/global-talent-bg-ld.webp) no-repeat center center / auto;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+.content-aria .golobal-network .content {
+    width: 90%;
+}
+.content-aria .golobal-network .middel-aria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.content-aria .golobal-network .middel-aria .left-side{
+    width: 50%;
+    display: flex;
+}
+/* .content-aria .golobal-network .middel-aria .right-side {
+    width: 40%;
+} */
+.content-aria .golobal-network .middel-aria .left-side .w-50 {
+    width: 50%;
+}
+/* ===================== */
+        /* head */
+/* ===================== */
+.content-aria .golobal-network .header-aria {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.content-aria .golobal-network .header-aria h1 {
+    font-size: 55px;
+}
+.content-aria .golobal-network .header-aria .color {
+    color:#e60278;
+}
+/* ===================== */
+        /* middle */
+/* ===================== */
+.content-aria .golobal-network .middel-aria h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+.content-aria .golobal-network .middel-aria p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.content-aria .golobal-network .middel-aria .left-side .on-side {
+    height: 62%;
+    padding: 0 8px;
+}
+.content-aria .golobal-network .middel-aria .left-side .under-side {
+    padding: 0 8px;
+    /* height: 62%; */
+}
+
+/* ===================== */
+        /* middle */
+/* ===================== */
+.content-aria .golobal-network .futter-aria h2 {
+    font-size: 34px;
+}
+.content-aria .golobal-network .futter-aria a {
+    font-size: 18px;
+    color:#e60278;
+    text-decoration: none;
+}
+.content-aria .golobal-network .futter-aria a:hover {
+    text-decoration: underline;
+    margin-top: 70px;
+}
+/* ============================================= */
+            /* image animation aria-2 */
+/* ============================================ */
+.content-aria .image-animation-aria-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    /* overflow: hidden; */
+}
+.content-aria .image-animation-aria-2 .image-animation {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.content-aria .image-animation .right-side {
+    width: 45%;
+}
+.content-aria .image-animation .right-side img {
+    width: 100%;
+}
+.content-aria .image-animation .left-side {
+    width: 45%;
+}
+.content-aria .image-animation .right-side-1 {
+    width: 50%;
+    float: left;
+}
+.content-aria .image-animation .right-side-1 img {
+    width: 100%;
+}
+.content-aria .image-animation .left-side-1 {
+    width: 50%;
+    float: left;
+}
+.content-aria .image-animation .left-side-1 img {
+    width: 100%;
+}
+
+/* ===================================================== */
+                    /* image animation aria-2 */
+                         /* right side */
+/* ===================================================== */
+.content-aria .image-animation .right-side .one p {
+    color:#000;
+}
+.content-aria .image-animation .right-side .one input {
+    padding: 10px 20px;
+    background: #e60278;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.content-aria .image-animation .right-side .one input:hover {
+    background: #860146;
+}
+.content-aria .image-animation .right-side .one .pragraph-aria {
+    display: none;
+}
+/* ===================================================== */
+                         /* hover */
+/* ===================================================== */
+
+.content-aria .image-animation .right-side .one:hover .pragraph-aria {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 15px;
+}
+.content-aria .image-animation .right-side .one:hover {
+    background-color:  #fff;
+    transition: 0.3s;
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/* ===================================================== */
+                    /* image animation aria-2 */
+                         /* left side */
+/* ===================================================== */
+
+.content-aria .image-animation .one,
+.content-aria .image-animation .two,
+.content-aria .image-animation .three,
+.content-aria .image-animation .four,
+.content-aria .image-animation .five {
+    /* background: #fff; */
+    border-radius: 5px;
+}
+.content-aria .image-animation .left-side .pragraph-aria {
+    display: none;
+}
+.content-aria .image-animation .left-side p {
+    font-size: 13px;
+    color: #000;
+}
+.content-aria .image-animation .two input,
+.content-aria .image-animation .three input,
+.content-aria .image-animation .four input,
+.content-aria .image-animation .five input {
+    background-color: #e60278;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 8px 14px;
+    border-radius: 3px;
+}
+/* ===================================================== */
+                         /* hover */
+/* ===================================================== */
+
+.content-aria .image-animation .left-side .two:hover .pragraph-aria,
+.content-aria .image-animation .left-side .three:hover .pragraph-aria,
+.content-aria .image-animation .left-side .four:hover .pragraph-aria {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.content-aria .image-animation .left-side .five:hover .pragraph-aria {
+    display: block;
+    padding: 8px;
+}
+.content-aria .image-animation .left-side .two:hover,
+.content-aria .image-animation .left-side .three:hover,
+.content-aria .image-animation .left-side .four:hover,
+.content-aria .image-animation .left-side .five:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* ===================================================== */
+                     /* working-aria */
+/* ===================================================== */
+.content-aria .working-aria {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content-aria .working-aria .get-work {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.content-aria .working-aria .get-work .w-30 {
+    width: 30%;
+}
+.content-aria .working-aria .get-work .w-30 h1 {
+    font-size: 50px;
+}
+.content-aria .working-aria .get-work .w-30 span {
+    color:#e60278;
+}
+.content-aria .working-aria .get-work .w-15 {
+    width: 15%;
+    overflow: hidden;
+    padding: 0 15px;
+}
+.content-aria .working-aria .get-work .w-15 ul li {
+    list-style-type: none;
+}
+.content-aria .working-aria .get-work .w-15 ul li a {
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 16px;
+}
+.content-aria .working-aria .get-work .w-15 ul li .last {
+    color:#e60278;
+    font-size: 18px;
+    font-weight: bold;
+}
+.content-aria .working-aria .get-work .w-15 ul li .last:hover {
+    color:#e60278;
+}
+.content-aria .working-aria .get-work .w-15 ul li a:hover {
+    text-decoration: underline;
+    color: #5493e5;
+    /* color:#12151b; */
+}
+/* ===================================================== */
+                     /* kingfisher-aria */
+/* ===================================================== */
+.content-aria .kingfisher-aria {
+    width: 100%;
+    background: url(images/ai-business-bg-ld.webp) no-repeat top center / auto;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 120px;
+    margin-top: 90px;
+}
+.content-aria .kingfisher-aria .kingfisher {
+    width: 90%;
+}
+.content-aria .kingfisher-aria .kingfisher .header-aria {
+    padding: 50px 20px;
+}
+.content-aria .kingfisher-aria .header-aria h1 {
+    font-size: 60px;
+}
+.content-aria .kingfisher-aria .header-aria .head {
+    color: #e60278;
+}
+.content-aria .kingfisher-aria .kingfisher .content {
+    display: flex;
+}
+.content-aria .kingfisher-aria .kingfisher .image-aria .w-56 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.content-aria .kingfisher-aria .w-56 .w-50 {
+    width: 100%;
+    padding: 0 0 0 20px;
+}
+.content-aria .kingfisher-aria .w-56 h2 {
+    font-size: 33px;
+    padding-bottom: 16px;
+}
+.content-aria .kingfisher-aria .w-56 p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.content-aria .kingfisher-aria .w-56 .w-50 a {
+    text-decoration: none;
+    color:#e60278;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-aria .kingfisher-aria .w-56 .w-50 a:hover {
+    text-decoration: underline;
+}
+.content-aria .kingfisher-aria .w-56 .top-aria {
+    width: 600px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.content-aria .kingfisher-aria .w-56 .bottom-aria {
+    width: 600px;
+    display: flex;
+}
+.content-aria .kingfisher-aria .kingfisher .w-44 {
+    display: flex;
+    width: 50%;
+}
+.content-aria .kingfisher-aria .kingfisher .w-44 img {
+    overflow: hidden;
+    /* width: 90%; */
+    height: 280px;
+    padding-left: 100px;
+    margin-top: -40px;
+}
+
+
+
+/* ============================================= */
+            /* image animation aria-3 */
+/* ============================================ */
+.content-aria .image-animation-aria-3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    /* overflow: hidden; */
+}
+.content-aria .image-animation-aria-3 .image-animation-3 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+.content-aria .image-animation-3 .left-side {
+    width: 45%;
+}
+.content-aria .image-animation-3 .left-side img {
+    width: 100%;
+}
+.content-aria .image-animation-3 .right-side {
+    width: 45%;
+}
+.content-aria .image-animation-3 .right-side-1 {
+    width: 50%;
+    float: left;
+}
+.content-aria .image-animation-3 .right-side-1 img {
+    width: 100%;
+}
+.content-aria .image-animation-3 .left-side-1 {
+    width: 50%;
+    float: left;
+}
+.content-aria .image-animation-3 .left-side-1 img {
+    width: 100%;
+}
+
+/* ===================================================== */
+                    /* image animation aria */
+                         /* left side */
+/* ===================================================== */
+.content-aria .image-animation-3 .left-side .one p {
+    color:#000;
+    font-size: 14px;
+}
+.content-aria .image-animation-3 .left-side .one input {
+    padding: 10px 20px;
+    background: #e60278;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 3px;
+}
+.content-aria .image-animation-3 .left-side .one input:hover {
+    background: #860146;
+}
+.content-aria .image-animation-3 .left-side .one .pragraph-aria {
+    display: none;
+}
+/* ===================================================== */
+                         /* hover */
+/* ===================================================== */
+
+.content-aria .image-animation-3 .left-side .one:hover .pragraph-aria {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 15px;
+}
+.content-aria .image-animation-3 .left-side .one:hover {
+    background-color:  #fff;
+    transition: 0.3s;
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+/* ===================================================== */
+                    /* image animation aria */
+                         /* right side */
+/* ===================================================== */
+
+.content-aria .image-animation-3 .one,
+.content-aria .image-animation-3 .two,
+.content-aria .image-animation-3 .three,
+.content-aria .image-animation-3 .four,
+.content-aria .image-animation-3 .five {
+    /* background: #fff; */
+    border-radius: 5px;
+}
+.content-aria .image-animation-3 .right-side .pragraph-aria {
+    display: none;
+}
+.content-aria .image-animation-3 .right-side p {
+    font-size: 14px;
+    color: #000;
+}
+.content-aria .image-animation-3 .two input,
+.content-aria .image-animation-3 .three input,
+.content-aria .image-animation-3 .four input,
+.content-aria .image-animation-3 .five input {
+    background-color: #e60278;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 8px 14px;
+    border-radius: 3px;
+}
+/* ===================================================== */
+                         /* hover */
+/* ===================================================== */
+
+.content-aria .image-animation-3 .right-side .two:hover .pragraph-aria,
+.content-aria .image-animation-3 .right-side .three:hover .pragraph-aria,
+.content-aria .image-animation-3 .right-side .four:hover .pragraph-aria,
+.content-aria .image-animation-3 .right-side .five:hover .pragraph-aria  {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.content-aria .image-animation-3 .right-side .two:hover,
+.content-aria .image-animation-3 .right-side .three:hover,
+.content-aria .image-animation-3 .right-side .four:hover,
+.content-aria .image-animation-3 .right-side .five:hover {
+    transition: 0.3s;
+    transform: scale(1.10);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* ===================================================== */
+                 /* global-kingfisher-aria */
+/* ===================================================== */
+.content-aria .global-kingfisher {
+    width: 100%;
+    background: url(images/enterprise-upsell-v5-desktop-test.webp) no-repeat center center / auto;
+    /* background-size: contain; */
+    display: flex;
+    justify-content: center;
+}
+.content-aria .global-kingfisher .organisations-aria {
+    width: 90%;
+    padding: 5% 0;
+}
+.content-aria .global-kingfisher .organisations-aria h1 {
+    font-size: 60px;
+}
+.content-aria .global-kingfisher .organisations-aria .head {
+    color:#e60278;
+}
+.content-aria .global-kingfisher .organisations-aria .freelancer-aria {
+    width: 550px;
+}
+.content-aria .global-kingfisher .freelancer-aria .one {
+    padding-bottom: 50px;
+}
+.content-aria .global-kingfisher .freelancer-aria h2 {
+    font-size: 33px;
+}
+.content-aria .global-kingfisher .freelancer-aria p {
+    font-size: 20px;
+    padding: 15px 0;
+}
+.content-aria .global-kingfisher .freelancer-aria a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#e60278;
+}
+.content-aria .global-kingfisher .freelancer-aria a:hover {
+    text-decoration: underline;
+
+}
+
+
+/* ===================================================== */
+                     /* futter-aria */
+/* ===================================================== */
+.content-aria .futter-aria {
+    width: 100%;
+    background-color:#12151b;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.content-aria .futter-aria .content-aria {
+    width: 90%;
+}
+.content-aria .futter-aria .content-aria .top-aria {
+    display: flex;
+    margin-bottom: 70px;
+}
+.content-aria .futter-aria .content-aria .top-aria img {
+    width: 130px;
+    color: #fff;
+    /* height: 130px; */
+}
+.content-aria .futter-aria .content-aria .top-aria .common-6 {
+    width: 16.67%;
+    /* overflow: hidden; */
+}
+.content-aria .futter-aria .top-aria .common-6 ul li {
+    list-style-type: none;
+    padding: 4px 0;
+}
+.content-aria .futter-aria .top-aria .common-6 ul li p {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.content-aria .futter-aria .top-aria .common-6 ul li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.content-aria .futter-aria .top-aria .common-6 ul li a:hover {
+    text-decoration: underline;
+}
+.content-aria .futter-aria .content-aria .empty {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.content-aria .futter-aria .content-aria .bottom-aria {
+    width: 100%;
+    display: flex;
+    padding: 30px 0 50px 0;
+}
+.content-aria .futter-aria .content-aria .bottom-aria .fifty {
+    display: flex;
+}
+.content-aria .futter-aria .content-aria .bottom-aria .w-50 {
+    width: 50%;
+    padding: 0 13px;
+}
+.content-aria .futter-aria .content-aria .bottom-aria .w-50 p {
+    font-size: 14px;
+}
+.content-aria .futter-aria .content-aria .bottom-aria .w-50 h1 {
+    font-size: 14.5px;
+    padding-bottom: 3px;
+}
+.content-aria .futter-aria .bottom-aria .w-50 .w-25 {
+    width: 50%;
+}
+.content-aria .futter-aria .content-aria .bottom-aria .w-50 .small {
+    font-size: 11px;
+    margin: 10px 10;
+}
